@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Generador de Contraseñas</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="content">
+        <h1>Presione el Boton azul para generar su contraseña</h1>
+        <h3>Longitud de la contraseña</h3>
+        <div class="longitud">
+            <input type="number" id="longitudContraseña" value="8" max="25" min="1">
+            <input type="range" id="range" value="8" max="25" min="1">
+        </div>
+        <input type="text" placeholder="Su contraseña aparecera aqui." id="inputContraseña">
+        <button id="botonGenerar">Generar!</button>
+    </div>
+</body>
+<script src="./script.js"></script>
+
+</html>
