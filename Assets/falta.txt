@@ -1,0 +1,8 @@
+falta:
+
+-Mejorar Diseño
+-Añadir funcion Copiar
+-Medidor de fuerza de Contraseña
+-Mostrar/Ocultar Contraseña
+-Historial de Contraseñas generadas
+-Mensaje de error
